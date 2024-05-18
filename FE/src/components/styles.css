@@ -1,0 +1,89 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  position: relative;
+}
+
+.menu_list{
+  margin-bottom: 40px!important;
+}
+
+.box-control{
+  position: relative;
+}
+
+.box-control em-emoji-picker{
+  position: absolute;
+    top: -450px;
+}
+
+.input_form{
+  height: 39.6px;
+  border: 1px solid #ddd;
+  min-width: 1105px;
+  margin-left: 8px;
+  margin-right: 8px!important;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+
+.input_form:focus-visible{
+  border-color: #3182ce!important;
+  box-shadow: 0 0 0 1px #3182ce!important;
+  outline: 0;
+}
+
+.user_msg{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.assistant_msg{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user_msg .mess{
+  background-color: rgb(26, 120, 255);
+  color: white;
+  margin-left: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 40%;
+}
+
+.assistant_msg .mess{
+  background-color: rgb(217, 220, 232);
+  color: black;
+  margin-left: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  max-width: 40%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.assistant_msg .ai_image{
+  background-image: url('../aichat.png');
+  background-size: cover;
+  background-position: center;
+  width: 40px; /* Adjust to your image size */
+  height: 40px; /* Adjust to your image size */
+  margin-right: 10px; /* Space between the image and the message box */
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+

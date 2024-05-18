@@ -1,0 +1,15 @@
+# Bỏ qua các tệp tin và thư mục không cần thiết
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env
+
+README.md
+# Bỏ qua các tệp tin và thư mục liên quan đến Git
+.git
+.gitignore
+
+# Bỏ qua các tệp tin tạm thời
+*.swp
+.DS_Store

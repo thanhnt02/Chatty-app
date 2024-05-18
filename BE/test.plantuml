@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+actor "Sinh viên" as SV
+actor "Thường trực" as TT
+actor "Hệ thống quản lý sinh viên" as HTQL
+database "Hệ thống bán hàng căng-tin" as HBH
+rectangle "Thư viện" as TV {
+rectangle "Chỗ tự học" as CTH {
+rectangle "Máy tính cá nhân" as MTCN
+}
+rectangle "Thường trực" as TR
+SV --> TR : Đăng ký yêu cầu dùng chỗ
+TR --> HTQL : Gửi yêu cầu xác thực
+HTQL --> TR : Xác thực thành công
+TR --> CTH : Cấp chỗ
+SV --> CTH : Sử dụng chỗ
+SV --> CTH : Yêu cầu mua nước
+CTH --> HBH : Gửi yêu cầu mua nước
+HBH --> TR : Gửi hoá đơn
+SV --> TR : Thanh toán hoá đơn
+SV --> CTH : Báo không sử dụng chỗ nữa
+TR --> CTH : Hủy chỗ
+TR --> CTH : Giải phóng chỗ
+TR --> SV : Thông báo cần trả chỗ
+SV --> CTH : Trả chỗ
+MTCN --> CTH : Đăng nhập
+MTCN --> CTH : Đăng xuất
+}
+
+@enduml
