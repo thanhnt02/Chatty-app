@@ -4,7 +4,7 @@
 export const SERVER_API =  process.env.REACT_APP_API_URL 
 export const SERVER_SOCKET =  process.env.REACT_APP_SOCKET_URL
 
-export const HOST = "https://chatty-app-swart.vercel.app/"
+export const HOST = "http://localhost:3000"
 const APIs = {
     file: SERVER_API + "api/public/uploads/",
     user: { 
