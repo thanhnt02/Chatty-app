@@ -94,8 +94,11 @@
 
 - Màn hình chức năng nhóm
 
-<img src="./image/18. Cập nhật chức năng về nhóm.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+<div class="image d-flex">
+  <img src="./image/16. tạo nhóm và thêm thành viên.png" width="49%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
+  <img src="./image/18. Cập nhật chức năng về nhóm.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
+</div>
 - Màn hình nhắn tin với AI Chatbot
 
 <img src="./image/19. AI chat.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
