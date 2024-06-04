@@ -3,7 +3,7 @@
 ## Những công nghệ được sử dụng
 
 - **Front-end:** ReactJS + Redux + ChakraUI
-- **Back-end:** NodeJS + ExpressJS + ChakraUI
+- **Back-end:** NodeJS + ExpressJS
 - **Database:** MongoDB
 - **Thời gian thực:** Socket.IO
 - **Một số dịch vụ tích hợp:** NodeMailer + WebRTC + AWS S3 + API KEY (ChatGPT)
